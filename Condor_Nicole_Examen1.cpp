@@ -170,6 +170,8 @@ void buscarEstudiante(string nombres[], float notas[], int cantidad) {
         }
     }
 
+
+
     if (!encontrado) {
         cout << "El estudiante '" << nombreBusqueda << "' no se encuentra registrado." << endl;
     }
